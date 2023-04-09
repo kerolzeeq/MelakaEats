@@ -61,7 +61,7 @@ def generate_answer():
 
 st.text_input("Ask me anything about food and restaurants in Melaka!", key="input_text", on_change=generate_answer,placeholder="Type here...")
 
-st_message("Hello! M y name is MelakaEats and I'm an expert assistant with knowledge of food and restaurants in Melaka, Malaysia. I am here to help people with anything related to food and restaurants in Melaka, Malaysia, from finding new places to eat to discussing the best dishes and cuisines. Whether you're a casual foodie or a foodie buff, I'm here to make sure people have the best food experience possible.",is_user=False ,avatar_style="big-smile",
+st_message("Hello! My name is MelakaEats and I'm an expert assistant with knowledge of food and restaurants in Melaka, Malaysia. I am here to help people with anything related to food and restaurants in Melaka, Malaysia, from finding new places to eat to discussing the best dishes and cuisines. Whether you're a casual foodie or a foodie buff, I'm here to make sure people have the best food experience possible.",is_user=False ,avatar_style="big-smile",
                                       seed="chef")
 
 for chat in st.session_state.history:
